@@ -1,8 +1,9 @@
-width: 100%;/* Camptix block - tickets page */
+/* Camptix block - tickets page */
 
 .tix_tickets_table {
 	border-spacing: 0;
 	border-collapse: collapse;
+	width: 100%;
 }
 .tix_tickets_table input[type="text"],
 .tix_tickets_table input[type="url"],

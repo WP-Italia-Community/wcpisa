@@ -55,10 +55,10 @@
 	}
 
 	.tix-column-remaining::before {
-		content: "Remaining: "
+		content: "Rimanenti: "
 	}
 	.tix-column-quantity::before {
-		content: "Quantity: "
+		content: "Quantità: "
 	}
 
 	.tix-tickets-list .tix-column-description {

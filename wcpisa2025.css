@@ -60,6 +60,12 @@
 	.tix-column-quantity::before {
 		content: "Quantità: "
 	}
+	.tix-column-per-ticket::before {
+		content: "Per ticket: "
+	}
+	.tix-column-price::before {
+		content: "Prezzo: "
+	}
 
 	.tix-tickets-list .tix-column-description {
 		padding: 0 !important;

@@ -206,7 +206,6 @@
 
 .tix-js .tix_tickets_table.tix-order-summary tbody th,
 .tix-js .tix_tickets_table.tix-attendee-form tbody th,
-.tix-js .tix_tickets_table.tix-order-summary tbody td,
 .tix-js .tix_tickets_table.tix-attendee-form tbody td {
 	border: none;
 	padding: 5px 20px;

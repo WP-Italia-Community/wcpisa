@@ -192,6 +192,7 @@
 
 .tix-js .tix_tickets_table tbody .tix-column-quantity select {
 	padding: 8px 7px;
+	min-width: 75px;
 }
 
 .tix-js .tix_tickets_table.tix-order-summary {

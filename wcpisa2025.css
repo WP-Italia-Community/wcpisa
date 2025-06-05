@@ -170,8 +170,8 @@
 }
 
 .tix-js .tix_tickets_table thead th {
-	background-color: var( --wp--preset--color--custom-light-blue-primary );
-	border: 1px solid var( --wp--preset--color--custom-light-blue-primary );
+	background-color: var( --wp--preset--color--accent-5 );
+	border: 1px solid var( --wp--preset--color--accent-5 );
 	font-weight: bold;
 }
 

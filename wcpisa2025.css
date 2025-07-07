@@ -280,6 +280,14 @@ p.p-community {
 
 /* END Footer style */
 
+/* Speakers form */
+
+.speaker-form-field-description {
+	margin-top: 0;
+}
+
+/* END Speakers form */
+
 /* Camptix block - tickets page */
 
 .tix_tickets_table, .tix-ticket-form {

@@ -1,3 +1,285 @@
+/* global 
+:root {
+	--bradius: 15px;
+}*/
+.heading-accent:before {
+	content: '';
+	display: block;
+	width: 56px;
+	height: 28px;
+	background-color: var(--wp--preset--color--accent-5);
+	border-radius: 50vh;
+	margin-bottom: 12px;
+}
+
+/* table rounded corners */
+figure.rounded-corners table {
+	border-spacing: 0;
+	border-collapse: separate;
+	border-radius: 10px;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+figure.rounded-corners table td {
+	border-width: 0 0 1px !important;
+}
+
+figure.rounded-corners table tr:last-of-type td {
+	border-width: 0 !important;
+}
+
+/* Apply a border to the right of all but the last column */
+figure.rounded-corners table th:not(:last-child),
+figure.rounded-corners table td:not(:last-child) {
+	border-right: 1px solid black;
+}
+
+/* Apply a border to the bottom of all but the last row */
+figure.rounded-corners table>thead>tr:not(:last-child)>th,
+figure.rounded-corners table>thead>tr:not(:last-child)>td,
+figure.rounded-corners table>tbody>tr:not(:last-child)>th,
+figure.rounded-corners table>tbody>tr:not(:last-child)>td,
+figure.rounded-corners table>tfoot>tr:not(:last-child)>th,
+figure.rounded-corners table>tfoot>tr:not(:last-child)>td,
+figure.rounded-corners table>tr:not(:last-child)>td,
+figure.rounded-corners table>tr:not(:last-child)>th,
+figure.rounded-corners table>thead:not(:last-child),
+figure.rounded-corners table>tbody:not(:last-child),
+figure.rounded-corners table>tfoot:not(:last-child) {
+	border-bottom: 1px solid black;
+}
+
+/* end table rounded corners*/
+/* additional buttons style */
+.btn--white a {
+	border-color: white;
+	background-color: white;
+	color: var(--wp--preset--color--accent-1);
+}
+
+.btn--outline-white a {
+	border-color: white;
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+
+.btn--outline-black a {
+	border-color: black;
+	background-color: rgba(0,0,0,0);
+	color: black;
+}
+
+/* END global */
+/* homepage style */
+/* hero */
+.home-hero img {
+}
+
+/* END hero */
+/* news */
+.home-news {
+/*max-width: 100%;*/
+}
+
+.home-news li {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.home-news figure, 
+.home-news .wp-block-post-date {
+	order: -1;
+}
+
+/* END news */
+/* programma */
+.home-programma .table--accent tr:first-of-type td {
+	background-color: var(--wp--preset--color--accent-5);
+}
+
+.home-programma tbody tr:first-of-type td {
+	font-size: var(--wp--preset--font-size--x-large);
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.home-programma tbody tr td span {
+	font-size: var(--wp--preset--font-size--small);
+	color: var(--wp--preset--color--accent-3);
+}
+
+/* END programma */
+/* Alessandro, ultime 3 parti home */
+/* Rispondi alla Call */
+.h-griglia-call {
+	font-size: clamp(2.835rem, 2.835rem + ((1vw - 0.2rem) * 4.18), 5.5rem);
+}
+
+.h-card-griglia-call {
+	font-size: var(--wp--preset--font-size--xx-large);
+}
+
+.h2-griglia-call {
+	font-size: var(--wp--preset--font-size--large);
+}
+
+.p-griglia-call {
+	font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1472px) {
+	html body main div div.wp-block-group.griglia-call {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	h2.h-griglia-call {
+		font-size: 3.7rem;
+	}
+	
+	h2.h-card-griglia-call {
+		font-size: 2.85rem;
+	}
+}
+
+@media screen and (max-width: 1016px) {
+	div h2.h-card-griglia-call {
+		font-size: 2.6rem;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	div h2.h-griglia-call {
+		font-size: 9vw;
+	}
+}
+
+@media screen and (max-width: 461px) {
+	div div h2.h-card-griglia-call {
+		font-size: 1.7rem;
+	}
+	
+	h2.wp-block-heading.is-style-text-subtitle.h2-griglia-call {
+		font-size: 21px;
+	}
+	
+	p.p-griglia-call {
+		font-size: 18px;
+	}
+}
+
+/* La Community */
+.stack-community {
+	padding-right: var(--wp--preset--spacing--60);
+	padding-left: var(--wp--preset--spacing--60);
+}
+
+@media screen and (max-width: 1476px) {
+	html body main div div.wp-block-group.alignwide.griglia-community {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	html body main div div.wp-block-group.alignwide.griglia-community figure {
+		width: 85%;
+	}
+	
+	html body main div div.wp-block-group.alignwide.griglia-community figure img {
+		width: 100%;
+	}
+	
+	html body main div div div div div.wp-block-buttons.is-layout-flex.wp-block-buttons-is-layout-flex.buttons-community {
+		align-self: center;
+	}
+}
+
+@media screen and (min-width: 860px) and (max-width: 1476px) {
+	html body main div div.wp-block-group.alignwide.griglia-community figure {
+		width: 50%;
+	}
+}
+
+h2.wp-block-heading.h-community {
+	font-size: 3.5rem;
+}
+
+p.p-community {
+	font-size: 1.4rem;
+}
+
+@media screen and (max-width: 523px) {
+	html body main div div div div h2.wp-block-heading.h-community {
+		font-size: 9vw;
+	}
+	
+	html body main div div div div p.p-community {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	html body main div div.wp-block-group.alignwide.griglia-community figure {
+		width: 100%;
+	}
+	
+	html body main div div div div p.p-community {
+		font-size: 19px;
+	}
+	
+	div.wp-block-group.stack-community {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+	html body main div div div div div.wp-block-buttons.is-layout-flex.wp-block-buttons-is-layout-flex.buttons-community {
+		flex-direction: column;
+	}
+}
+
+/* Le location */
+.h-location {
+	font-size: 3.5rem;
+}
+
+@media screen and (max-width: 523px) {
+	h2.h-location {
+		font-size: 9vw;
+	}
+}
+
+@media screen and (max-width: 353px) {
+	div h2.h-location {
+		font-size: 10vw;
+	}
+	
+	.buttons-location div a {
+		font-size: 4.4vw;
+	}
+}
+
+/* END homepage style */
+/* Header style */
+/* END Header style */
+/* Footer */
+.footer img.custom-logo {
+	filter: invert(1);
+}
+
+@media (max-width:768px) {
+	.footer {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+}
+
+/* END Footer style */
+
 /* Camptix block - tickets page */
 
 .tix_tickets_table, .tix-ticket-form {

@@ -76,6 +76,22 @@ figure.rounded-corners table>tfoot:not(:last-child) {
 .home-hero img {
 }
 
+@media screen and (max-width: 1013px) {
+	.home-hero .home-hero-row {
+		flex-direction: column-reverse;
+		gap: 50px;
+	}
+	
+	.home-hero .home-hero-row img {
+		width: 100px;
+	}
+	
+	.home-hero .home-hero-row .titolo-e-coordinate,
+	.home-hero .home-hero-row .titolo-e-coordinate h1{
+		text-align: center;
+	}
+}
+
 /* END hero */
 /* news */
 .home-news {

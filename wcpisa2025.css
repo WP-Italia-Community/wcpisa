@@ -660,4 +660,8 @@ p.p-community {
   background-color: #e0e0e0 !important;
 }
 
+.wp-block-wordcamp-schedule .wordcamp-schedule__column-header.is-column-time {
+  display: none !important;
+}
+
 /* END Schedule */

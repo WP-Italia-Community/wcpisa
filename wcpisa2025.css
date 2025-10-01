@@ -664,4 +664,13 @@ p.p-community {
   display: none !important;
 }
 
+.wp-block-wordcamp-schedule div.wordcamp-schedule__session[class*="has-slug-pausa"] p,.wp-block-wordcamp-schedule div.wordcamp-schedule__session[class*="has-slug-pranzo"] p {
+  margin-bottom: 0;
+}
+
+.wordcamp-schedule__session-speakers,
+.wp-block-wordcamp-session-speakers__name {
+   pointer-events: none;
+}
+
 /* END Schedule */

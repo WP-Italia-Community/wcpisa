@@ -633,3 +633,31 @@ p.p-community {
 	text-align: center;
 }
 /* END Camptix block - tickets page */
+
+/* Schedule */
+
+.wp-block-wordcamp-schedule div.wordcamp-schedule__session.is-spanning-all-tracks h4 {
+  text-align: center !important;
+  justify-content: center;
+}
+.wp-block-wordcamp-schedule .wordcamp-schedule__session-category {
+  color: #333;
+  text-align: right;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+}
+
+.wp-block-wordcamp-schedule .wordcamp-schedule__session-title, .wp-block-wordcamp-schedule .wordcamp-schedule__time-slot-header {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.wp-block-wordcamp-schedule div.wordcamp-schedule__session[class*="has-slug-pausa"],
+.wp-block-wordcamp-schedule div.wordcamp-schedule__session[class*="has-slug-pranzo"] {
+  background-color: #e0e0e0 !important;
+}
+
+/* END Schedule */

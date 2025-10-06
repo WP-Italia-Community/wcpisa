@@ -652,6 +652,10 @@ p.p-community {
 	font-family: var(--wp--preset--font-family--space-grotesk);
 }
 
+.wordcamp-schedule__session h4 a {
+	font-family: var(--wp--preset--font-family--space-grotesk) !important;
+}
+
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-category {
   color: #333;
   text-align: right;

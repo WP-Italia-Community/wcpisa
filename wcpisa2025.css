@@ -646,9 +646,10 @@ p.p-community {
 }
 
 .wordcamp-schedule__column-header, .wordcamp-schedule__time-slot-header {
-  font-size: xx-large;
-  background-color: var(--wp--preset--color--accent-1) !important;
-  color: var(--wp--preset--color--base);
+	font-size: xx-large;
+	background-color: var(--wp--preset--color--accent-1) !important;
+	color: var(--wp--preset--color--base);
+	font-family: var(--wp--preset--font-family--space-grotesk);
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-category {

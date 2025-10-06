@@ -640,6 +640,11 @@ p.p-community {
   text-align: center !important;
   justify-content: center;
 }
+
+.wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session.is-spanning-all-tracks {
+    text-align: center;
+}
+
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-category {
   color: #333;
   text-align: right;

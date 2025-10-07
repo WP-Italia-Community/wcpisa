@@ -652,6 +652,19 @@ p.p-community {
 	font-family: var(--wp--preset--font-family--space-grotesk);
 }
 
+.wordcamp-schedule__column-header {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+h3.wordcamp-schedule__time-slot-header:first-of-type {
+  border-top-left-radius: 30px;
+}
+
+h3.wordcamp-schedule__time-slot-header:last-of-type {
+  border-bottom-left-radius: 30px;
+}
+
 .wordcamp-schedule__session h4 a {
 	font-family: var(--wp--preset--font-family--space-grotesk) !important;
 }

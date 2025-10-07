@@ -714,3 +714,21 @@ h3.wordcamp-schedule__time-slot-header:last-of-type {
 }
 
 /* END Schedule */
+
+/* Speakers list */
+
+.wp-block-wordcamp-speaker-sessions a {
+  font-family: var(--wp--preset--font-family--space-grotesk);
+  font-weight: bold;
+}
+.wordcamp-speaker-sessions__session-info {
+  color: var(--wp--preset--color--accent-3);
+}
+.wp-block-wordcamp-speaker-sessions p {
+  margin-top: 0;
+}
+.wp-block-wordcamp-speaker-sessions {
+  margin-top: 0;
+}
+
+/* END Speakers list */

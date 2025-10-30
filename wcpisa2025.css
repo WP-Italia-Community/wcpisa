@@ -632,6 +632,12 @@ p.p-community {
 .tix-js .tix-ticket-form th {
 	text-align: center;
 }
+
+/* Hide Contributor day tickets from the table to people not allowed to */
+.tix-ticket-1792.tix-sold-out {
+	display: none;
+}
+
 /* END Camptix block - tickets page */
 
 /* Schedule */

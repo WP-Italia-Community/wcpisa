@@ -697,11 +697,6 @@ h3.wordcamp-schedule__time-slot-header:last-of-type {
   margin-bottom: 0;
 }
 
-.wordcamp-schedule__session-speakers,
-.wp-block-wordcamp-session-speakers__name {
-   pointer-events: none;
-}
-
 .wp-block-wordcamp-schedule .wordcamp-schedule__day div[data-session-id="2278"] h4 > a:after,
 .wp-block-wordcamp-schedule .wordcamp-schedule__day div[data-session-id="2127"] h4 > a:after,
 .wp-block-wordcamp-schedule .wordcamp-schedule__day div[data-session-id="2319"] h4 > a:after,

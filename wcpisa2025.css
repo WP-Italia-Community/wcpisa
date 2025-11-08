@@ -839,4 +839,22 @@ h3.wordcamp-schedule__time-slot-header:last-of-type {
 	font-size: .85rem;
 }
 
+.page-slug-sponsors #tix-attendees .tix-field.tix-attendee-name {
+  color: black;
+  background-color: transparent;
+  border: none;
+  height: auto;
+  padding: 0;
+  margin-top: 22px;
+}
+
+.page-slug-sponsors #tix-attendees .tix-field.tix-nome-azienda {
+    padding: 0;
+}
+
+.page-slug-sponsors #tix-attendees .tix-field.tix-sito-internet{
+  float: left !important;
+  clear: none;
+}
+
 /* END Attendee list */

@@ -1,4 +1,5 @@
 /* WordCamp Pisa 2026 — Additional CSS (paste into Customize → Additional CSS) */
+/* 1.0.1 */
 /* --- Base + typography --- */
 body,
 .wp-site-blocks {
@@ -1036,7 +1037,7 @@ strong {
     .wcpisa-speaker-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .wcpisa-speaker-grid .wp-block-post-title {
         font-size: 28px;
     }
@@ -1110,10 +1111,12 @@ strong {
     color: #000bab;
 }
 
-/* Il blocco stampa gli speaker come span consecutivi senza separatore. */
+/* Il blocco stampa gli speaker come span consecutivi senza separatore.
+   2026-09 sembra che ora il separatore ci cia.
 .wcpisa-session-foot .wp-block-wordcamp-session-speakers__name + .wp-block-wordcamp-session-speakers__name::before {
     content: ", ";
 }
+*/
 
 .wcpisa-session-meta {
     display: flex;
@@ -1153,7 +1156,7 @@ strong {
     .wcpisa-session-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .wcpisa-session-grid .wp-block-post-title {
         font-size: 28px;
     }
@@ -1432,30 +1435,30 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__day {
         display: block;
     }
-    
+
     body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header {
         display: none;
     }
-    
+
     body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header.is-empty {
         display: none;
     }
-    
+
     body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header {
         margin-top: 2em;
     }
-    
+
     body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session,
     body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header {
         border: 1px solid #d1e5ff;
         border-top: none;
         box-shadow: none;
     }
-    
+
     body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session-tracks {
         display: block;
     }
-    
+
     .wp-block-wordcamp-schedule .wordcamp-schedule h3.wordcamp-schedule__time-slot-header {
         border-radius: 16px 16px 0 0;
     }
@@ -1799,3 +1802,16 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 }
 
 /* END Camptix block - tickets page */
+
+/* Limit to 1 the max number of ticket buyed at once with coupons */
+table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not([value=""])) #tix-qty-4547 option:is([value="2"], [value="3"], [value="4"], [value="5"], [value="6"], [value="7"], [value="8"], [value="9"], [value="10"]),
+table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not([value=""])) #tix-qty-4553 option:is([value="2"], [value="3"], [value="4"], [value="5"], [value="6"], [value="7"], [value="8"], [value="9"], [value="10"]),
+table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not([value=""])) .tix-ticket-4558 {
+    display: none;
+}
+
+/* Fix mobile menu 1st level items color */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation .wp-block-navigation-item__content,
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation a {
+    color: inherit !important;
+}

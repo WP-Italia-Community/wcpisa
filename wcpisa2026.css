@@ -1,5 +1,5 @@
 /* WordCamp Pisa 2026 — Additional CSS (paste into Customize → Additional CSS) */
-/* 1.0.1 */
+/* 1.0.2 */
 /* --- Base + typography --- */
 body,
 .wp-site-blocks {
@@ -1815,3 +1815,32 @@ table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not(
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation a {
     color: inherit !important;
 }
+
+/* WP scuola*/
+#wordcamp-schedule__session-4868 .wordcamp-schedule__session-speakers dd::after,
+.wp-block-post.post-4868.wcb_session .wp-block-wordcamp-session-speakers__name::after{
+    content: " - Stefano Cassone";
+}
+
+#wordcamp-schedule__session-4872 .wordcamp-schedule__session-speakers dd::after,
+.wp-block-post.post-4872.wcb_session .wp-block-wordcamp-session-speakers__name::after{
+    content: " - Margherita Pelonara";
+}
+
+#wordcamp-schedule__session-4874 .wordcamp-schedule__session-speakers dd::after,
+.wp-block-post.post-4874.wcb_session .wp-block-wordcamp-session-speakers__name::after{
+    content: " - Gloria Liumi";
+}
+
+#wordcamp-schedule__session-4876 .wordcamp-schedule__session-speakers dd::after,
+.wp-block-post.post-4876.wcb_session .wp-block-wordcamp-session-speakers__name::after{
+    content: " - Stefano Cassone, Gloria Liumi, Margherita Pelonara, Dennis Ploetner";
+}
+
+#wordcamp-schedule__session-4868 .wordcamp-schedule__session-speakers dd::after,
+#wordcamp-schedule__session-4872 .wordcamp-schedule__session-speakers dd::after,
+#wordcamp-schedule__session-4874 .wordcamp-schedule__session-speakers dd::after,
+#wordcamp-schedule__session-4876 .wordcamp-schedule__session-speakers dd::after {
+    color: #0065ea;
+}
+

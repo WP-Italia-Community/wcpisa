@@ -1816,7 +1816,9 @@ table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not(
     color: inherit !important;
 }
 
-/* WP scuola*/
+/* WP scuola start */
+
+/* Schedule and Session page */
 #wordcamp-schedule__session-4868 .wordcamp-schedule__session-speakers dd::after,
 .wp-block-post.post-4868.wcb_session .wp-block-wordcamp-session-speakers__name::after{
     content: " - Stefano Cassone";
@@ -1837,6 +1839,7 @@ table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not(
     content: " - Stefano Cassone, Gloria Liumi, Margherita Pelonara, Dennis Ploetner";
 }
 
+/* Fix schedule name color */
 #wordcamp-schedule__session-4868 .wordcamp-schedule__session-speakers dd::after,
 #wordcamp-schedule__session-4872 .wordcamp-schedule__session-speakers dd::after,
 #wordcamp-schedule__session-4874 .wordcamp-schedule__session-speakers dd::after,
@@ -1844,3 +1847,21 @@ table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not(
     color: #0065ea;
 }
 
+/* Speaker page */
+body.postid-4919 .wp-block-wordcamp-speaker-sessions li a[href*="session/hello-wordpress"]::after {
+    content: " - Stefano Cassone";
+}
+
+body.postid-4919 .wp-block-wordcamp-speaker-sessions li a[href*="session/crea-e-pubblica"]::after {
+    content: " - Margherita Pelonara";
+}
+
+body.postid-4919 .wp-block-wordcamp-speaker-sessions li a[href*="session/personalizza-il-tuo-sito"]::after {
+    content: " - Gloria Liumi";
+}
+
+body.postid-4919 .wp-block-wordcamp-speaker-sessions li a[href*="session/qa"]::after {
+    content: " - Stefano Cassone, Gloria Liumi, Margherita Pelonara, Dennis Ploetner";
+}
+
+/* WP scuola end */

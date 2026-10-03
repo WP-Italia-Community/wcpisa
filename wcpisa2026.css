@@ -1,83 +1,84 @@
 /* WordCamp Pisa 2026 — Additional CSS (paste into Customize → Additional CSS) */
+/* 1.0.1 */
 /* --- Base + typography --- */
 body,
 .wp-site-blocks {
-    font-family: 'Syne', system-ui, sans-serif;
-    color: #1e1e1e;
-    font-size: 18px;
-    line-height: 1.55;
+	font-family: 'Syne', system-ui, sans-serif;
+	color: #1e1e1e;
+	font-size: 18px;
+	line-height: 1.55;
 }
 
 h1, h2, h3, h4, h5, h6,
 .wp-block-heading {
-    font-family: 'Syne', system-ui, sans-serif;
-    font-weight: 700;
-    color: #000bab;
-    line-height: 1.1;
-    letter-spacing: -.01em;
+	font-family: 'Syne', system-ui, sans-serif;
+	font-weight: 700;
+	color: #000bab;
+	line-height: 1.1;
+	letter-spacing: -.01em;
 }
 
 h1, .wp-block-heading.wcpisa-h1 {
-    font-size: clamp(40px, 6vw, 72px);
+	font-size: clamp(40px, 6vw, 72px);
 }
 
 h2, .wp-block-heading.wcpisa-h2 {
-    font-size: clamp(32px, 4.5vw, 48px);
+	font-size: clamp(32px, 4.5vw, 48px);
 }
 
 h3, .wp-block-heading.wcpisa-h3 {
-    font-size: clamp(24px, 3vw, 32px);
+	font-size: clamp(24px, 3vw, 32px);
 }
 
 a {
-    color: #0065ea;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+	color: #0065ea;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
 }
 
 a:hover {
-    text-decoration-thickness: 2px;
+	text-decoration-thickness: 2px;
 }
 
 strong {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 .wcpisa-eyebrow {
-    font-size: 16px;
-    font-weight: 500;
-    color: #0065ea;
-    text-transform: uppercase;
-    letter-spacing: .04em;
-    margin-bottom: 8px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #0065ea;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+	margin-bottom: 8px;
 }
 
 .wcpisa-on-blue,
 .wcpisa-on-blue h1, .wcpisa-on-blue h2, .wcpisa-on-blue h3,
 .wcpisa-on-blue .wp-block-heading,
 .wcpisa-on-blue p, .wcpisa-on-blue li {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .wcpisa-on-blue .wcpisa-eyebrow {
-    color: #81b8ff;
+	color: #81b8ff;
 }
 
 .wcpisa-on-blue a {
-    color: #fff;
-    text-decoration-color: #ffe819;
+	color: #fff;
+	text-decoration-color: #ffe819;
 }
 
 /* --- Layout helpers --- */
 .wcpisa-container > .wp-block-group__inner-container,
 .wcpisa-container {
-    max-width: 1184px;
-    margin-inline: auto;
-    padding-inline: 24px;
+	max-width: 1184px;
+	margin-inline: auto;
+	padding-inline: 24px;
 }
 
 .wcpisa-section {
-    padding-block: clamp(48px, 8vw, 96px);
+	padding-block: clamp(48px, 8vw, 96px);
 }
 
 /* --- Buttons --- */
@@ -86,63 +87,63 @@ strong {
 .wp-block-button.is-style-wcpisa-outline .wp-block-button__link,
 .wp-block-button.is-style-wcpisa-outline-light .wp-block-button__link,
 .wp-block-button.is-style-wcpisa-white .wp-block-button__link {
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1;
-    border-radius: 999px;
-    padding: 16px 22px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    white-space: nowrap;
-    transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease, color .15s ease;
-    border: 2px solid transparent;
+	font-family: 'Syne', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1;
+	border-radius: 999px;
+	padding: 16px 22px;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	white-space: nowrap;
+	transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease, color .15s ease;
+	border: 2px solid transparent;
 }
 
 .wp-block-button.is-style-wcpisa-yellow .wp-block-button__link {
-    background: #ffe819;
-    color: #1e1e1e;
+	background: #ffe819;
+	color: #1e1e1e;
 }
 
 .wp-block-button.is-style-wcpisa-yellow .wp-block-button__link:hover {
-    box-shadow: 0 6px 18px rgba(255,232,25,.45);
+	box-shadow: 0 6px 18px rgba(255,232,25,.45);
 }
 
 .wp-block-button.is-style-wcpisa-blue .wp-block-button__link {
-    background: #0065ea;
-    color: #fff;
+	background: #0065ea;
+	color: #fff;
 }
 
 .wp-block-button.is-style-wcpisa-blue .wp-block-button__link:hover {
-    background: #000bab;
+	background: #000bab;
 }
 
 .wp-block-button.is-style-wcpisa-outline .wp-block-button__link {
-    background: transparent;
-    color: #000bab;
-    border-color: #000bab;
+	background: transparent;
+	color: #000bab;
+	border-color: #000bab;
 }
 
 .wp-block-button.is-style-wcpisa-outline .wp-block-button__link:hover {
-    background: #000bab;
-    color: #fff;
+	background: #000bab;
+	color: #fff;
 }
 
 .wp-block-button.is-style-wcpisa-outline-light .wp-block-button__link {
-    background: transparent;
-    color: #fff;
-    border-color: #fff;
+	background: transparent;
+	color: #fff;
+	border-color: #fff;
 }
 
 .wp-block-button.is-style-wcpisa-outline-light .wp-block-button__link:hover {
-    background: #fff;
-    color: #000bab;
+	background: #fff;
+	color: #000bab;
 }
 
 .wp-block-button.is-style-wcpisa-white .wp-block-button__link {
-    background: #fff;
-    color: #1e1e1e;
+	background: #fff;
+	color: #1e1e1e;
 }
 
 .wp-block-button.is-style-wcpisa-yellow        > a.wp-block-button__link::after,
@@ -150,13 +151,13 @@ strong {
 .wp-block-button.is-style-wcpisa-outline       > a.wp-block-button__link::after,
 .wp-block-button.is-style-wcpisa-outline-light > a.wp-block-button__link::after,
 .wp-block-button.is-style-wcpisa-white         > a.wp-block-button__link::after {
-    content: '\2192';
-    display: inline-block;
-    margin-left: 8px;
-    font-weight: inherit;
-    vertical-align: baseline;
-    transform: translateX(0);
-    transition: transform .2s ease;
+	content: '\2192';
+	display: inline-block;
+	margin-left: 8px;
+	font-weight: inherit;
+	vertical-align: baseline;
+	transform: translateX(0);
+	transition: transform .2s ease;
 }
 
 .wp-block-button.is-style-wcpisa-yellow        > a.wp-block-button__link:hover::after,
@@ -164,637 +165,637 @@ strong {
 .wp-block-button.is-style-wcpisa-outline       > a.wp-block-button__link:hover::after,
 .wp-block-button.is-style-wcpisa-outline-light > a.wp-block-button__link:hover::after,
 .wp-block-button.is-style-wcpisa-white         > a.wp-block-button__link:hover::after {
-    transform: translateX(4px);
+	transform: translateX(4px);
 }
 
 .wcpisa-newsletter .wp-block-button > a.wp-block-button__link::after {
-    content: none;
+	content: none;
 }
 
 .wcpisa-btn-sm .wp-block-button__link {
-    font-size: 16px;
-    padding: 10px 16px;
+	font-size: 16px;
+	padding: 10px 16px;
 }
 
 /* --- Pre-header toolbar --- */
 .wcpisa-toolbar {
-    background: #0148a3;
-    color: #fff;
-    font-family: 'Syne', sans-serif;
-    font-size: 12px;
-    padding-block: 8px;
-    box-sizing: border-box;
-    width: 100% !important;
-    margin-inline: auto;
+	background: #0148a3;
+	color: #fff;
+	font-family: 'Syne', sans-serif;
+	font-size: 12px;
+	padding-block: 8px;
+	box-sizing: border-box;
+	width: 100% !important;
+	margin-inline: auto;
 }
 
 .wcpisa-toolbar a {
-    color: #f2f2f2;
-    text-decoration: none;
+	color: #f2f2f2;
+	text-decoration: none;
 }
 
 .wcpisa-toolbar a:hover {
-    color: #fff;
+	color: #fff;
 }
 
 .wcpisa-toolbar .wp-block-group {
-    gap: 16px;
+	gap: 16px;
 }
 
 .wcpisa-toolbar .wp-block-navigation .wp-block-navigation-item__content {
-    font-size: 14px;
-    padding: 4px 8px;
+	font-size: 14px;
+	padding: 4px 8px;
 }
 
 /* --- Main menu --- */
 .wcpisa-menu {
-    background-image: url('https://pisa.wordcamp.org/2026/files/2026/05/Background.jpg');
-    background-repeat: repeat;
-    background-position: center top;
-    background-size: auto;
-    background-attachment: fixed;
-    background-color: #0065ea;
-    padding-block: 18px;
-    box-sizing: border-box;
-    width: 100% !important;
-    margin-inline: auto;
+	background-image: url('https://pisa.wordcamp.org/2026/files/2026/05/Background.jpg');
+	background-repeat: repeat;
+	background-position: center top;
+	background-size: auto;
+	background-attachment: fixed;
+	background-color: #0065ea;
+	padding-block: 18px;
+	box-sizing: border-box;
+	width: 100% !important;
+	margin-inline: auto;
 }
 
 .wcpisa-on-blue.wcpisa-menu .wp-block-navigation,
 .wcpisa-menu .wp-block-navigation {
-    font-family: 'Syne', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+	font-family: 'Syne', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
 }
 
 .wcpisa-on-blue .wp-block-navigation .wp-block-navigation-item__content,
 .wcpisa-on-blue .wp-block-navigation a {
-    color: #f2f2f2;
+	color: #f2f2f2;
 }
 
 .wcpisa-on-blue .wp-block-navigation .wp-block-navigation-item__content:hover {
-    color: #fff;
+	color: #fff;
 }
 
 .wcpisa-on-blue .wp-block-navigation .wp-block-navigation__submenu-icon svg {
-    fill: currentColor;
+	fill: currentColor;
 }
 
 .wp-block-navigation .wp-block-navigation__submenu-container {
-    background-color: #fff;
-    color: #1e1e1e;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    padding: 8px 0;
-    border: none;
+	background-color: #fff;
+	color: #1e1e1e;
+	border-radius: 12px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+	padding: 8px 0;
+	border: none;
 }
 
 .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item__content,
 .wp-block-navigation .wp-block-navigation__submenu-container a,
 .wcpisa-on-blue .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item__content,
 .wcpisa-on-blue .wp-block-navigation .wp-block-navigation__submenu-container a {
-    color: #1e1e1e;
+	color: #1e1e1e;
 }
 
 .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item__content:hover,
 .wp-block-navigation .wp-block-navigation__submenu-container a:hover,
 .wcpisa-on-blue .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item__content:hover,
 .wcpisa-on-blue .wp-block-navigation .wp-block-navigation__submenu-container a:hover {
-    color: #0065ea;
+	color: #0065ea;
 }
 
 .wcpisa-logo img {
-    height: 31px;
-    width: auto;
+	height: 31px;
+	width: auto;
 }
 
 /* --- Hero --- */
 .wcpisa-hero {
-    position: relative;
-    color: #fff;
-    overflow: hidden;
-    isolation: isolate;
-    background-image: url('https://pisa.wordcamp.org/2026/files/2026/05/Background.jpg');
-    background-repeat: repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-color: #0065ea;
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+	isolation: isolate;
+	background-image: url('https://pisa.wordcamp.org/2026/files/2026/05/Background.jpg');
+	background-repeat: repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-color: #0065ea;
 }
 
 .wcpisa-hero h1, .wcpisa-hero h2, .wcpisa-hero h3, .wcpisa-hero p {
-    color: #fff;
+	color: #fff;
 }
 
 .wcpisa-hero .wcpisa-eyebrow {
-    color: #81b8ff;
+	color: #81b8ff;
 }
 
 .wcpisa-hero-home {
-    padding-block: 120px 80px;
-    padding-inline: var(--wp--style--root--padding-right, 24px);
+	padding-block: 120px 80px;
+	padding-inline: var(--wp--style--root--padding-right, 24px);
 }
 
 .wcpisa-hero-home .wp-block-columns {
-    align-items: center;
-    gap: 48px;
+	align-items: center;
+	gap: 48px;
 }
 
 .wcpisa-hero .wcpisa-tagline {
-    font-weight: 500;
-    font-size: clamp(18px, 2vw, 21px);
-    line-height: 1.4;
-    max-width: 720px;
+	font-weight: 500;
+	font-size: clamp(18px, 2vw, 21px);
+	line-height: 1.4;
+	max-width: 720px;
 }
 
 .wcpisa-hero-home .wcpisa-tagline {
-    max-width: 480px;
+	max-width: 480px;
 }
 
 .wcpisa-hero-home .wcpisa-date {
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 8px;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 8px;
 }
 
 .wcpisa-hero-home .wcpisa-wordmark {
-    width: clamp(280px, 38vw, 479px);
-    margin: 0 0 32px;
+	width: clamp(280px, 38vw, 479px);
+	margin: 0 0 32px;
 }
 
 .wcpisa-hero-home .wcpisa-wordmark img {
-    display: block;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 479 / 222;
-    object-fit: contain;
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 479 / 222;
+	object-fit: contain;
 }
 
 .wcpisa-hero-page {
-    padding-block: 130px 60px;
-    padding-inline: var(--wp--style--root--padding-right, 24px);
-    text-align: left;
+	padding-block: 130px 60px;
+	padding-inline: var(--wp--style--root--padding-right, 24px);
+	text-align: left;
 }
 
 .wcpisa-hero-page h1 {
-    color: #fff;
-    font-weight: 700;
-    font-size: clamp(40px, 6vw, 72px);
-    margin: 0 0 16px;
+	color: #fff;
+	font-weight: 700;
+	font-size: clamp(40px, 6vw, 72px);
+	margin: 0 0 16px;
 }
 
 /* --- Orbit illustration --- */
 .wcpisa-orbit-badge {
-    display: block;
-    width: 100%;
-    max-width: 682px;
-    margin-inline: auto;
+	display: block;
+	width: 100%;
+	max-width: 682px;
+	margin-inline: auto;
 }
 
 .wcpisa-orbit-badge img {
-    display: block;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 682 / 531;
-    animation: wcpisa-spin 60s linear infinite;
-    transform-origin: 50% 66%;
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 682 / 531;
+	animation: wcpisa-spin 60s linear infinite;
+	transform-origin: 50% 66%;
 }
 
 @keyframes wcpisa-spin {
-    to {
-        transform: rotate(360deg);
-    }
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 /* --- News cards --- */
 .wcpisa-news-card {
-    background: #edf5ff;
-    border-radius: 16px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+	background: #edf5ff;
+	border-radius: 16px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 .wcpisa-news-card .wp-block-image,
 .wcpisa-news-card .wp-block-image img {
-    margin: 0;
-    display: block;
-    aspect-ratio: 377 / 283;
-    object-fit: cover;
-    width: 100%;
-    background: #e3e3e3;
-    border-radius: 0 0 16px 16px;
+	margin: 0;
+	display: block;
+	aspect-ratio: 377 / 283;
+	object-fit: cover;
+	width: 100%;
+	background: #e3e3e3;
+	border-radius: 0 0 16px 16px;
 }
 
 .wcpisa-news-card .wcpisa-card-body {
-    padding: 24px;
+	padding: 24px;
 }
 
 .wcpisa-news-card .wcpisa-card-date {
-    color: #0065ea;
-    font-size: 14px;
-    font-weight: 400;
-    margin: 0 0 8px;
+	color: #0065ea;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 0 8px;
 }
 
 .wcpisa-news-card h3 {
-    color: #000bab;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.2;
-    margin: 0;
+	color: #000bab;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.2;
+	margin: 0;
 }
 
 /* --- Call cards --- */
 .wcpisa-call-card {
-    background: #fff;
-    border-radius: 16px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+	background: #fff;
+	border-radius: 16px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 .wcpisa-call-card.is-featured {
-    background: #0065ea;
-    color: #fff;
+	background: #0065ea;
+	color: #fff;
 }
 
 .wcpisa-call-card.is-featured h3 {
-    color: #fff;
+	color: #fff;
 }
 
 .wcpisa-call-card.is-featured p {
-    color: #f2f2f2;
+	color: #f2f2f2;
 }
 
 .wcpisa-call-card .wp-block-image img {
-    aspect-ratio: 377/283;
-    object-fit: cover;
-    width: 100%;
-    background: #e3e3e3;
-    margin: 0;
-    border-radius: 0 0 16px 16px;
+	aspect-ratio: 377/283;
+	object-fit: cover;
+	width: 100%;
+	background: #e3e3e3;
+	margin: 0;
+	border-radius: 0 0 16px 16px;
 }
 
 .wcpisa-call-card .wcpisa-card-body {
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    flex-grow: 1;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	flex-grow: 1;
 }
 
 .wcpisa-call-card h3 {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.1;
-    margin: 0;
-    color: #000bab;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 1.1;
+	margin: 0;
+	color: #000bab;
 }
 
 .wcpisa-call-card p {
-    margin: 0;
+	margin: 0;
 }
 
 .wcpisa-call-card .wp-block-buttons {
-    margin-top: auto;
+	margin-top: auto;
 }
 
 /* --- Tier card --- */
 .wcpisa-tier {
-    background: #edf5ff;
-    border-radius: 16px;
-    padding: 24px 24px 28px;
+	background: #edf5ff;
+	border-radius: 16px;
+	padding: 24px 24px 28px;
 }
 
 .wcpisa-tier h3 {
-    font-size: 32px;
-    font-weight: 600;
-    margin: 0 0 12px;
-    color: #000bab;
+	font-size: 32px;
+	font-weight: 600;
+	margin: 0 0 12px;
+	color: #000bab;
 }
 
 .wcpisa-tier p {
-    margin: 0;
-    font-size: 16px;
+	margin: 0;
+	font-size: 16px;
 }
 
 /* --- Sponsor logo grid --- */
 .wcpisa-sponsor-grid {
-    background: #eef5ff;
+	background: #eef5ff;
 }
 
 .wcpisa-sponsor-grid .wp-block-image {
-    background: #fff;
-    border-radius: 16px;
-    aspect-ratio: 378/212;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+	background: #fff;
+	border-radius: 16px;
+	aspect-ratio: 378/212;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
 }
 
 .wcpisa-sponsor-grid .wp-block-image img {
-    max-width: 70%;
-    max-height: 70%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+	max-width: 70%;
+	max-height: 70%;
+	width: auto;
+	height: auto;
+	object-fit: contain;
 }
 
 /* --- Section image + body split --- */
 .wcpisa-split {
-    gap: clamp(32px, 5vw, 64px);
-    align-items: center;
+	gap: clamp(32px, 5vw, 64px);
+	align-items: center;
 }
 
 .wcpisa-split .wp-block-image {
-    margin: 0;
+	margin: 0;
 }
 
 .wcpisa-split .wp-block-image img {
-    aspect-ratio: 527/427;
-    object-fit: cover;
-    width: 100%;
-    border-radius: 16px;
-    background: #e3e3e3;
+	aspect-ratio: 527/427;
+	object-fit: cover;
+	width: 100%;
+	border-radius: 16px;
+	background: #e3e3e3;
 }
 
 /* --- Newsletter card --- */
 .wcpisa-newsletter {
-    background: #fff;
-    color: #1e1e1e;
-    border-radius: 16px;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+	background: #fff;
+	color: #1e1e1e;
+	border-radius: 16px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
 }
 
 .wcpisa-newsletter h3 {
-    color: #000bab;
-    font-size: 21px;
-    font-weight: 700;
-    margin: 0;
+	color: #000bab;
+	font-size: 21px;
+	font-weight: 700;
+	margin: 0;
 }
 
 .wcpisa-newsletter p {
-    margin: 0;
-    font-size: 16px;
+	margin: 0;
+	font-size: 16px;
 }
 
 .wcpisa-newsletter input[type="email"],
 .wcpisa-newsletter input[type="text"] {
-    width: 100%;
-    padding: 10px 14px;
-    border-radius: 8px;
-    border: 1px solid #1e1e1e;
-    background: #fff;
-    font-family: inherit;
-    font-size: 16px;
+	width: 100%;
+	padding: 10px 14px;
+	border-radius: 8px;
+	border: 1px solid #1e1e1e;
+	background: #fff;
+	font-family: inherit;
+	font-size: 16px;
 }
 
 .wcpisa-newsletter label {
-    display: block;
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 6px;
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 6px;
 }
 
 .wcpisa-newsletter .wcpisa-form-row {
-    margin-bottom: 12px;
+	margin-bottom: 12px;
 }
 
 .wcpisa-newsletter .wcpisa-checkbox-row {
-    display: flex;
-    gap: 8px;
-    align-items: flex-start;
-    font-size: 14px;
-    margin: 12px 0 16px;
+	display: flex;
+	gap: 8px;
+	align-items: flex-start;
+	font-size: 14px;
+	margin: 12px 0 16px;
 }
 
 .wcpisa-newsletter .wp-block-button .wp-block-button__link {
-    background: #0065ea;
-    color: #fff;
-    border-radius: 999px;
-    padding: 10px 18px;
-    font-size: 16px;
-    font-weight: 600;
+	background: #0065ea;
+	color: #fff;
+	border-radius: 999px;
+	padding: 10px 18px;
+	font-size: 16px;
+	font-weight: 600;
 }
 
 .wcpisa-newsletter > * {
-    margin: 0;
+	margin: 0;
 }
 
 .wcpisa-newsletter .wp-block-buttons:empty {
-    display: none;
+	display: none;
 }
 
 /* Jetpack Subscriptions overrides */
 .wcpisa-newsletter .wp-block-jetpack-subscriptions {
-    margin: 0;
+	margin: 0;
 }
 
 .wcpisa-newsletter .wp-block-jetpack-subscriptions__container,
 .wcpisa-newsletter .wp-block-jetpack-subscriptions form {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .wcpisa-newsletter .wp-block-jetpack-subscriptions__form-elements p {
-    margin: 0 !important;
+	margin: 0 !important;
 }
 
 .wcpisa-newsletter #subscribe-submit {
-    margin-top: 20px !important;
+	margin-top: 20px !important;
 }
 
 .wcpisa-newsletter .wp-block-jetpack-subscriptions input[type="email"] {
-    width: 100% !important;
-    padding: 12px 14px !important;
-    border: 1px solid #1e1e1e !important;
-    border-radius: 8px !important;
-    background: #fff !important;
-    color: #1e1e1e !important;
-    font-family: inherit !important;
-    font-size: 16px !important;
+	width: 100% !important;
+	padding: 12px 14px !important;
+	border: 1px solid #1e1e1e !important;
+	border-radius: 8px !important;
+	background: #fff !important;
+	color: #1e1e1e !important;
+	font-family: inherit !important;
+	font-size: 16px !important;
 }
 
 .wcpisa-newsletter .wp-block-jetpack-subscriptions input[type="email"]:disabled {
-    opacity: .65;
+	opacity: .65;
 }
 
 .wcpisa-newsletter .wp-block-jetpack-subscriptions button.wp-block-button__link,
 .wcpisa-newsletter .wp-block-jetpack-subscriptions input[type="submit"] {
-    border-radius: 999px !important;
-    background: #0065ea !important;
-    color: #fff !important;
-    padding: 12px 22px !important;
-    margin: 0 !important;
-    font-family: 'Syne', sans-serif !important;
-    font-size: 16px !important;
-    font-weight: 600 !important;
-    border: none !important;
-    cursor: pointer;
-    align-self: flex-start;
-    transition: background-color .15s ease, box-shadow .15s ease;
+	border-radius: 999px !important;
+	background: #0065ea !important;
+	color: #fff !important;
+	padding: 12px 22px !important;
+	margin: 0 !important;
+	font-family: 'Syne', sans-serif !important;
+	font-size: 16px !important;
+	font-weight: 600 !important;
+	border: none !important;
+	cursor: pointer;
+	align-self: flex-start;
+	transition: background-color .15s ease, box-shadow .15s ease;
 }
 
 .wcpisa-newsletter .wp-block-jetpack-subscriptions button.wp-block-button__link:hover,
 .wcpisa-newsletter .wp-block-jetpack-subscriptions input[type="submit"]:hover {
-    background: #000bab !important;
+	background: #000bab !important;
 }
 
 .wcpisa-newsletter .wp-block-jetpack-subscriptions label.screen-reader-text {
-    position: static;
-    width: auto;
-    height: auto;
-    clip: auto;
-    white-space: normal;
-    display: block;
-    margin: 0 0 6px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #1e1e1e;
-    text-transform: capitalize;
+	position: static;
+	width: auto;
+	height: auto;
+	clip: auto;
+	white-space: normal;
+	display: block;
+	margin: 0 0 6px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #1e1e1e;
+	text-transform: capitalize;
 }
 
 /* --- Footer --- */
 .wcpisa-footer {
-    background-image: url('https://pisa.wordcamp.org/2026/files/2026/05/Background.jpg');
-    background-repeat: repeat;
-    background-position: center top;
-    background-size: auto;
-    background-attachment: fixed;
-    background-color: #0065ea;
-    color: #fff;
-    position: relative;
-    overflow: hidden;
-    box-sizing: border-box;
-    width: 100% !important;
-    margin-inline: auto;
+	background-image: url('https://pisa.wordcamp.org/2026/files/2026/05/Background.jpg');
+	background-repeat: repeat;
+	background-position: center top;
+	background-size: auto;
+	background-attachment: fixed;
+	background-color: #0065ea;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 100% !important;
+	margin-inline: auto;
 }
 
 .wcpisa-footer h3 {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 700;
-    margin: 0 0 12px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 0 12px;
 }
 
 .wcpisa-footer a {
-    color: #fff;
-    text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 
 .wcpisa-footer a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .wcpisa-footer .wp-block-columns {
-    gap: 32px;
+	gap: 32px;
 }
 
 .wcpisa-footer-logo img,
 .wcpisa-footer-patron img {
-    filter: brightness(0) invert(1);
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    display: block;
+	filter: brightness(0) invert(1);
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+	display: block;
 }
 
 .wcpisa-footer-patron {
-    margin-top: 12px;
+	margin-top: 12px;
 }
 
 .wcpisa-footer-links {
-    list-style: none;
-    padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 .wcpisa-footer-links li {
-    margin: 4px 0;
+	margin: 4px 0;
 }
 
 .wcpisa-footer-social.wp-block-social-links {
-    gap: 12px;
+	gap: 12px;
 }
 
 .wcpisa-footer-social .wp-block-social-link {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background: transparent !important;
-    color: #fff;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	background: transparent !important;
+	color: #fff;
 }
 
 .wcpisa-footer-social .wp-block-social-link-label {
-    position: static;
-    width: auto;
-    height: auto;
-    clip: auto;
-    font-size: 16px;
-    color: #fff;
-    margin: 0;
+	position: static;
+	width: auto;
+	height: auto;
+	clip: auto;
+	font-size: 16px;
+	color: #fff;
+	margin: 0;
 }
 
 .wcpisa-footer-toolbar {
-    background: #0148a3;
-    color: #fff;
-    font-size: 12px;
-    padding-block: 12px;
-    box-sizing: border-box;
-    width: 100% !important;
-    max-width: var(--wp--style--global--wide-size, 1280px);
-    margin-inline: auto;
+	background: #0148a3;
+	color: #fff;
+	font-size: 12px;
+	padding-block: 12px;
+	box-sizing: border-box;
+	width: 100% !important;
+	max-width: var(--wp--style--global--wide-size, 1280px);
+	margin-inline: auto;
 }
 
 .wcpisa-footer-toolbar a {
-    color: #fff;
+	color: #fff;
 }
 
 /* --- Forms --- */
 .wp-block-form,
 .wcpisa-form {
-    display: grid;
-    gap: 16px;
+	display: grid;
+	gap: 16px;
 }
 
 .wp-block-form-input__label,
 .wcpisa-form label {
-    display: block;
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 6px;
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 6px;
 }
 
 .wp-block-form-input__input,
 .wcpisa-form input[type="text"],
 .wcpisa-form input[type="email"],
 .wcpisa-form textarea {
-    width: 100%;
-    padding: 12px 14px;
-    border-radius: 8px;
-    border: 1px solid #1e1e1e;
-    font-family: inherit;
-    font-size: 16px;
-    background: #fff;
+	width: 100%;
+	padding: 12px 14px;
+	border-radius: 8px;
+	border: 1px solid #1e1e1e;
+	font-family: inherit;
+	font-size: 16px;
+	background: #fff;
 }
 
 .wcpisa-form .wp-block-form-input-checkbox label,
 .wcpisa-form-checkbox {
-    font-size: 14px;
+	font-size: 14px;
 }
 
 /* --- TT25 resets --- */
 .wp-block-cover.wcpisa-hero {
-    min-height: auto;
+	min-height: auto;
 }
 
 .has-text-align-left {
-    text-align: left;
+	text-align: left;
 }
 
 /* --- Band/hero alignment --- */
@@ -802,1000 +803,1199 @@ strong {
 .wcpisa-menu.has-global-padding,
 .wcpisa-footer.has-global-padding,
 .wcpisa-footer-toolbar.has-global-padding {
-    padding-left: 0;
-    padding-right: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .wcpisa-toolbar,
 .wcpisa-menu,
 .wcpisa-footer,
 .wcpisa-footer-toolbar {
-    padding-left: var(--wp--style--root--padding-left, 24px) !important;
-    padding-right: var(--wp--style--root--padding-right, 24px) !important;
+	padding-left: var(--wp--style--root--padding-left, 24px) !important;
+	padding-right: var(--wp--style--root--padding-right, 24px) !important;
 }
 
 /* --- Decorative graphics --- */
 .wcpisa-decor-eppur {
-    position: relative;
-    overflow: visible;
+	position: relative;
+	overflow: visible;
 }
 
 .wcpisa-decor-eppur::before {
-    content: '';
-    position: absolute;
-    top: 6%;
-    right: 2%;
-    width: clamp(120px, 16vw, 200px);
-    aspect-ratio: 1 / 1;
-    background: url('https://pisa.wordcamp.org/2026/files/2026/05/eppur-si-muove.png') center / contain no-repeat;
-    pointer-events: none;
-    animation: wcpisa-spin 60s linear infinite;
-    transform-origin: 50% 50%;
-    z-index: 0;
+	content: '';
+	position: absolute;
+	top: 6%;
+	right: 2%;
+	width: clamp(120px, 16vw, 200px);
+	aspect-ratio: 1 / 1;
+	background: url('https://pisa.wordcamp.org/2026/files/2026/05/eppur-si-muove.png') center / contain no-repeat;
+	pointer-events: none;
+	animation: wcpisa-spin 60s linear infinite;
+	transform-origin: 50% 50%;
+	z-index: 0;
 }
 
 .wcpisa-decor-planets {
-    position: relative;
-    overflow: visible;
+	position: relative;
+	overflow: visible;
 }
 
 .wcpisa-decor-planets::before {
-    content: '';
-    position: absolute;
-    top: 5%;
-    left: 0;
-    width: 30%;
-    height: 70%;
-    pointer-events: none;
-    z-index: 0;
-    background: url('https://pisa.wordcamp.org/2026/files/2026/05/pianeta-giallo.png') 35% 5% / clamp(28px, 3.5vw, 44px) auto no-repeat, url('https://pisa.wordcamp.org/2026/files/2026/05/pianeta-blu.png') 65% 12% / clamp(48px, 5.5vw, 70px) auto no-repeat, url('https://pisa.wordcamp.org/2026/files/2026/05/pianeta-rosa.png') 10% 80% / clamp(64px, 7.5vw, 96px) auto no-repeat;
+	content: '';
+	position: absolute;
+	top: 5%;
+	left: 0;
+	width: 30%;
+	height: 70%;
+	pointer-events: none;
+	z-index: 0;
+	background: url('https://pisa.wordcamp.org/2026/files/2026/05/pianeta-giallo.png') 35% 5% / clamp(28px, 3.5vw, 44px) auto no-repeat, url('https://pisa.wordcamp.org/2026/files/2026/05/pianeta-blu.png') 65% 12% / clamp(48px, 5.5vw, 70px) auto no-repeat, url('https://pisa.wordcamp.org/2026/files/2026/05/pianeta-rosa.png') 10% 80% / clamp(64px, 7.5vw, 96px) auto no-repeat;
 }
 
 @media (max-width: 768px) {
-    .wcpisa-decor-eppur::before,
-                                  .wcpisa-decor-planets::before {
-        display: none;
-    }
+	.wcpisa-decor-eppur::before,
+								                                  .wcpisa-decor-planets::before {
+		display: none;
+	}
 }
 
 /* --- Responsive --- */
 @media (max-width: 781px) {
-    .wcpisa-hero-home {
-        padding-block: 96px 56px;
-    }
-
-    .wcpisa-hero-home .wp-block-columns {
-        gap: 32px;
-    }
-
-    .wcpisa-toolbar {
-        display: none;
-    }
-
-    .wcpisa-menu > .wp-block-group,
-                                  .wcpisa-toolbar > .wp-block-group,
-                                  .wcpisa-footer-toolbar > .wp-block-group {
-        flex-wrap: wrap !important;
-        gap: 12px !important;
-    }
-
-    .wcpisa-footer .wp-block-columns {
-        flex-wrap: wrap !important;
-        gap: 32px !important;
-    }
-
-    .wcpisa-footer .wp-block-column {
-        flex-basis: 100% !important;
-        flex-grow: 1 !important;
-        min-width: 0 !important;
-    }
+	.wcpisa-hero-home {
+		padding-block: 96px 56px;
+	}
+	
+	.wcpisa-hero-home .wp-block-columns {
+		gap: 32px;
+	}
+	
+	.wcpisa-toolbar {
+		display: none;
+	}
+	
+	.wcpisa-menu > .wp-block-group,
+								                                  .wcpisa-toolbar > .wp-block-group,
+								                                  .wcpisa-footer-toolbar > .wp-block-group {
+		flex-wrap: wrap !important;
+		gap: 12px !important;
+	}
+	
+	.wcpisa-footer .wp-block-columns {
+		flex-wrap: wrap !important;
+		gap: 32px !important;
+	}
+	
+	.wcpisa-footer .wp-block-column {
+		flex-basis: 100% !important;
+		flex-grow: 1 !important;
+		min-width: 0 !important;
+	}
 }
 
 @media (max-width: 599px) {
-    body {
-        font-size: 16px;
-    }
-
-    .wcpisa-news-card .wcpisa-card-body,
-                                  .wcpisa-call-card .wcpisa-card-body,
-                                  .wcpisa-tier {
-        padding: 20px;
-    }
-
-    .has-global-padding,
-                                  .wcpisa-hero-home,
-                                  .wcpisa-hero-page,
-                                  .wcpisa-toolbar,
-                                  .wcpisa-menu,
-                                  .wcpisa-footer,
-                                  .wcpisa-footer-toolbar {
-        padding-left: 12px !important;
-        padding-right: 12px !important;
-    }
-
-    .has-global-padding > .alignfull {
-        margin-left: -12px !important;
-        margin-right: -12px !important;
-    }
+	body {
+		font-size: 16px;
+	}
+	
+	.wcpisa-news-card .wcpisa-card-body,
+								                                  .wcpisa-call-card .wcpisa-card-body,
+								                                  .wcpisa-tier {
+		padding: 20px;
+	}
+	
+	.has-global-padding,
+								                                  .wcpisa-hero-home,
+								                                  .wcpisa-hero-page,
+								                                  .wcpisa-toolbar,
+								                                  .wcpisa-menu,
+								                                  .wcpisa-footer,
+								                                  .wcpisa-footer-toolbar {
+		padding-left: 12px !important;
+		padding-right: 12px !important;
+	}
+	
+	.has-global-padding > .alignfull {
+		margin-left: -12px !important;
+		margin-right: -12px !important;
+	}
 }
 
 /* --- Speaker grid (Query Loop "Speakers List") --- */
 /* Classe wcpisa-speaker-grid sul Post Template: ogni voce è una card con avatar, nome, sessione e orario. */
 .wcpisa-speaker-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 /* Ogni voce del Post Template è una card. */
 .wcpisa-speaker-grid > li {
-    margin: 0;
-    padding: 22px 16px 24px;
-    text-align: center;
-    background: #fff3fb;
-    border: 2px solid #ffe3f6;
-    border-radius: 16px;
-    transition: border-color .15s ease, box-shadow .15s ease;
+	margin: 0;
+	padding: 22px 16px 24px;
+	text-align: center;
+	background: #fff3fb;
+	border: 2px solid #ffe3f6;
+	border-radius: 16px;
+	transition: border-color .15s ease, box-shadow .15s ease;
 }
 
 .wcpisa-speaker-grid > li:hover {
-    border-color: #f3b7e0;
-    box-shadow: 0 6px 18px rgba(107, 2, 81, .08);
+	border-color: #f3b7e0;
+	box-shadow: 0 6px 18px rgba(107, 2, 81, .08);
 }
 
 /* Avatar. Il blocco stampa width e height inline in base alla dimensione
    scelta nel pannello, quindi serve !important per portarlo a 150px. */
 .wcpisa-speaker-grid .wp-block-wordcamp-avatar {
-    width: 150px !important;
-    height: 150px !important;
-    margin: 0 auto 23px;
-    border-radius: 50%;
-    overflow: hidden;
+	width: 150px !important;
+	height: 150px !important;
+	margin: 0 auto 23px;
+	border-radius: 50%;
+	overflow: hidden;
 }
 
 .wcpisa-speaker-grid .wp-block-wordcamp-avatar img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
 }
 
 /* Nome dello speaker. */
 .wcpisa-speaker-grid .wp-block-post-title {
-    margin: 0 0 15px;
-    font-size: 32px;
-    line-height: 1.2;
-    font-weight: 700;
-    letter-spacing: -0.01em;
-    color: #6b0251;
+	margin: 0 0 15px;
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 700;
+	letter-spacing: -.01em;
+	color: #6b0251;
 }
 
 .wcpisa-speaker-grid .wp-block-post-title a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .wcpisa-speaker-grid .wp-block-post-title a:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
+	text-decoration: underline;
+	text-underline-offset: 3px;
 }
 
 /* Sessioni collegate allo speaker. */
 .wcpisa-speaker-grid .wp-block-wordcamp-speaker-sessions {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .wcpisa-speaker-grid .wp-block-wordcamp-speaker-sessions > li + li {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .wcpisa-speaker-grid .wp-block-wordcamp-speaker-sessions p {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.4;
-    color: #6b0251;
-    text-wrap: balance;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.4;
+	color: #6b0251;
+	text-wrap: balance;
 }
 
 .wcpisa-speaker-grid .wp-block-wordcamp-speaker-sessions a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .wcpisa-speaker-grid .wp-block-wordcamp-speaker-sessions a:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
+	text-decoration: underline;
+	text-underline-offset: 3px;
 }
 
 /* Riga con data, ora e track. */
 .wcpisa-speaker-grid .wp-block-wordcamp-speaker-sessions p.wordcamp-speaker-sessions__session-info {
-    margin-top: 14px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.4;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #ac2a91;
-    text-wrap: balance;
+	margin-top: 14px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.4;
+	letter-spacing: .02em;
+	text-transform: uppercase;
+	color: #ac2a91;
+	text-wrap: balance;
 }
 
 @media (max-width: 1023px) {
-    .wcpisa-speaker-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.wcpisa-speaker-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media (max-width: 599px) {
-    .wcpisa-speaker-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .wcpisa-speaker-grid .wp-block-post-title {
-        font-size: 28px;
-    }
+	.wcpisa-speaker-grid {
+		grid-template-columns: 1fr;
+	}
+	
+	.wcpisa-speaker-grid .wp-block-post-title {
+		font-size: 28px;
+	}
 }
 
 /* --- Session grid (Query Loop "Sessions List") --- */
 /* Classe wcpisa-session-grid sul Post Template: testata azzurra con categoria e titolo, piede con speaker e orario. */
 .wcpisa-session-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 24px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .wcpisa-session-grid > li {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: #ffffff;
-    border: 2px solid #d1e5ff;
-    border-radius: 16px;
-    transition: border-color .15s ease, box-shadow .15s ease;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #ffffff;
+	border: 2px solid #d1e5ff;
+	border-radius: 16px;
+	transition: border-color .15s ease, box-shadow .15s ease;
 }
 
 .wcpisa-session-grid > li:hover {
-    border-color: #81b8ff;
-    box-shadow: 0 6px 18px rgba(0, 11, 171, .08);
+	border-color: #81b8ff;
+	box-shadow: 0 6px 18px rgba(0, 11, 171, .08);
 }
 
 /* Testata azzurra: categoria e titolo. Cresce fino a riempire la card, così
    i piedi bianchi restano allineati anche con titoli di lunghezza diversa. */
 .wcpisa-session-head {
-    flex: 1 0 auto;
-    padding: 28px 16px 30px;
-    background: #eef5ff;
-    border-radius: 14px;
+	flex: 1 0 auto;
+	padding: 28px 16px 30px;
+	background: #eef5ff;
+	border-radius: 14px;
 }
 
 .wcpisa-session-head .wp-block-post-terms {
-    margin: 0 0 14px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.4;
-    text-transform: uppercase;
-    letter-spacing: .04em;
-    color: #000bab;
+	margin: 0 0 14px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.4;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+	color: #000bab;
 }
 
 .wcpisa-session-grid .wp-block-post-title {
-    margin: 0;
-    font-size: 32px;
-    line-height: 1.2;
-    font-weight: 700;
-    letter-spacing: -0.01em;
-    color: #000bab;
+	margin: 0;
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 700;
+	letter-spacing: -.01em;
+	color: #000bab;
 }
 
 /* Piede bianco: speaker, poi data, ora e track. */
 .wcpisa-session-foot {
-    padding: 24px 16px;
+	padding: 24px 16px;
 }
 
 .wcpisa-session-foot .wp-block-wordcamp-session-speakers {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.4;
-    color: #000bab;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.4;
+	color: #000bab;
 }
 
-/* Il blocco stampa gli speaker come span consecutivi senza separatore. */
+/* Il blocco stampa gli speaker come span consecutivi senza separatore.
+   2026-09 sembra che ora il separatore ci cia.
 .wcpisa-session-foot .wp-block-wordcamp-session-speakers__name + .wp-block-wordcamp-session-speakers__name::before {
     content: ", ";
 }
-
+*/
 .wcpisa-session-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px 0;
-    margin-top: 14px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.4;
-    text-transform: uppercase;
-    letter-spacing: .02em;
-    color: #0065ea;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px 0;
+	margin-top: 14px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.4;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	color: #0065ea;
 }
 
 .wcpisa-session-meta > * {
-    margin: 0;
+	margin: 0;
 }
 
 /* Trattino di separazione fra orario e track. Sparisce da solo quando la
    sessione non ha track, perché il blocco non stampa nulla. */
 .wcpisa-session-meta .wp-block-post-terms::before {
-    content: "-";
-    margin-inline: 6px;
+	content: "-";
+	margin-inline: 6px;
 }
 
 .wcpisa-session-grid a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .wcpisa-session-grid a:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
+	text-decoration: underline;
+	text-underline-offset: 3px;
 }
 
 @media (max-width: 781px) {
-    .wcpisa-session-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .wcpisa-session-grid .wp-block-post-title {
-        font-size: 28px;
-    }
+	.wcpisa-session-grid {
+		grid-template-columns: 1fr;
+	}
+	
+	.wcpisa-session-grid .wp-block-post-title {
+		font-size: 28px;
+	}
 }
 
 /* --- Sponsor grids (Query Loop "Sponsors List") --- */
 /* Una sezione per livello. Solo logo: wcpisa-sponsor-logos. Livello Copper: wcpisa-supporter-grid. */
 .wcpisa-sponsors .wp-block-heading {
-    margin: 33px 0;
+	margin: 33px 0;
 }
 
 .wcpisa-sponsors > .wp-block-heading:first-child {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 /* Livelli con solo logo: Gold, Silver, Bronze, Partner. */
 .wcpisa-sponsor-logos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .wcpisa-sponsor-logos > li {
-    margin: 0;
-    padding: 0;
-    background: #ffffff;
-    border: 2px solid #d1e5ff;
-    border-radius: 16px;
-    transition: border-color .15s ease, box-shadow .15s ease;
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	border: 2px solid #d1e5ff;
+	border-radius: 16px;
+	transition: border-color .15s ease, box-shadow .15s ease;
 }
 
 .wcpisa-sponsor-logos > li:hover {
-    border-color: #81b8ff;
-    box-shadow: 0 6px 18px rgba(0, 11, 171, .08);
+	border-color: #81b8ff;
+	box-shadow: 0 6px 18px rgba(0, 11, 171, .08);
 }
 
 .wcpisa-sponsor-logos .wp-block-post-featured-image {
-    margin: 0;
+	margin: 0;
 }
 
 /* Il logo sta dentro un rettangolo 16/9 e non viene mai ritagliato. */
 .wcpisa-sponsor-logos .wp-block-post-featured-image img {
-    display: block;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9;
-    object-fit: contain;
-    padding: 20px;
-    box-sizing: border-box;
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 9;
+	object-fit: contain;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 /* Livello Copper: logo tondo accanto a nome, descrizione e sito. */
 .wcpisa-supporter-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .wcpisa-supporter-grid > li {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    margin: 0;
-    padding: 14px;
-    background: #ffffff;
-    border: 2px solid #d1e5ff;
-    border-radius: 16px;
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	margin: 0;
+	padding: 14px;
+	background: #ffffff;
+	border: 2px solid #d1e5ff;
+	border-radius: 16px;
 }
 
 .wcpisa-supporter-grid .wp-block-post-featured-image {
-    flex: 0 0 100px;
-    margin: 0;
+	flex: 0 0 100px;
+	margin: 0;
 }
 
 .wcpisa-supporter-grid .wp-block-post-featured-image img {
-    display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
 }
 
 .wcpisa-supporter-grid .wp-block-post-title {
-    margin: 0 0 8px;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.45;
-    letter-spacing: 0;
-    color: #1e293b;
+	margin: 0 0 8px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.45;
+	letter-spacing: 0;
+	color: #1e293b;
 }
 
 .wcpisa-supporter-grid .wp-block-post-excerpt {
-    margin: 0;
+	margin: 0;
 }
 
 .wcpisa-supporter-grid .wp-block-post-excerpt__excerpt {
-    margin: 0 0 7px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #1e293b;
+	margin: 0 0 7px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #1e293b;
 }
 
 .wcpisa-supporter-grid .wp-block-wordcamp-meta-link {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #0065ea;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #0065ea;
 }
 
 .wcpisa-sponsor-logos a,
 .wcpisa-supporter-grid a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .wcpisa-supporter-grid .wp-block-post-title a:hover,
 .wcpisa-supporter-grid .wp-block-wordcamp-meta-link a:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
+	text-decoration: underline;
+	text-underline-offset: 3px;
 }
 
 @media (max-width: 1023px) {
-    .wcpisa-sponsor-logos,
-    .wcpisa-supporter-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.wcpisa-sponsor-logos,
+								    .wcpisa-supporter-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media (max-width: 781px) {
-    .wcpisa-sponsor-logos,
-    .wcpisa-supporter-grid {
-        grid-template-columns: 1fr;
-    }
+	.wcpisa-sponsor-logos,
+								    .wcpisa-supporter-grid {
+		grid-template-columns: 1fr;
+	}
 }
 
 /* --- Schedule (blocco wordcamp/schedule, pagina Programma) --- */
 /* Ripreso dal CSS 2025 e riportato a colori, font e raggi del 2026. Le pause e il pranzo
    sono le sessioni di tipo "custom", quindi non serve più agganciarsi allo slug. */
 .wp-block-wordcamp-schedule .wordcamp-schedule__day {
-    background-color: #ffffff;
+	background-color: #ffffff;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__column-header,
 .wp-block-wordcamp-schedule .wordcamp-schedule__time-slot-header {
-    background-color: #0065ea !important;
-    color: #ffffff;
-    font-family: 'Syne', system-ui, sans-serif;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -.01em;
+	background-color: #0065ea !important;
+	color: #ffffff;
+	font-family: 'Syne', system-ui, sans-serif;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: -.01em;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__column-header {
-    font-size: 24px;
-    padding: 14px 10px;
+	font-size: 24px;
+	padding: 14px 10px;
 }
 
 /* Angoli arrotondati solo agli estremi della fascia dei track. La prima
    intestazione visibile è quella dopo la colonna orario, che resta nascosta. */
 .wp-block-wordcamp-schedule .wordcamp-schedule__column-header.is-column-time + .wordcamp-schedule__column-header {
-    border-top-left-radius: 16px;
+	border-top-left-radius: 16px;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__column-header:last-of-type {
-    border-top-right-radius: 16px;
+	border-top-right-radius: 16px;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__column-header.is-column-time {
-    display: none !important;
+	display: none !important;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__time-slot-header {
-    font-size: 18px;
-    margin: 0;
+	font-size: 18px;
+	margin: 0;
 }
 
 .wp-block-wordcamp-schedule h3.wordcamp-schedule__time-slot-header:first-of-type {
-    border-top-left-radius: 16px;
+	border-top-left-radius: 16px;
 }
 
 .wp-block-wordcamp-schedule h3.wordcamp-schedule__time-slot-header:last-of-type {
-    border-bottom-left-radius: 16px;
+	border-bottom-left-radius: 16px;
 }
 
 /* Celle: sfondo bianco e righe della griglia azzurre. Il blocco disegna le righe con un
    box-shadow dentro un selettore molto specifico, quindi va ripetuto uguale per vincere. */
 .wp-block-wordcamp-schedule .wordcamp-schedule__session {
-    background-color: #ffffff;
-    border-color: #d1e5ff;
+	background-color: #ffffff;
+	border-color: #d1e5ff;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__time-slot-header {
-    border-color: #d1e5ff;
+	border-color: #d1e5ff;
 }
 
 body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session,
 body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header {
-    box-shadow: 0 0 1px 1px #d1e5ff;
+	box-shadow: 0 0 1px 1px #d1e5ff;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-title {
-    font-size: 20px;
-    line-height: 1.3;
-    font-weight: 700;
-    letter-spacing: -.01em;
-    color: #000bab;
+	font-size: 20px;
+	line-height: 1.3;
+	font-weight: 700;
+	letter-spacing: -.01em;
+	color: #000bab;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-title a {
-    font-family: 'Syne', system-ui, sans-serif;
-    color: #000bab;
+	font-family: 'Syne', system-ui, sans-serif;
+	color: #000bab;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-speakers {
-    margin-top: 6px;
-    font-size: 16px;
+	margin-top: 6px;
+	font-size: 16px;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-speakers a {
-    color: #0065ea;
+	color: #0065ea;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-category {
-    margin-top: 10px;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.4;
-    letter-spacing: .04em;
-    text-transform: uppercase;
-    text-align: right;
-    color: #000bab;
+	margin-top: 10px;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.4;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+	text-align: right;
+	color: #000bab;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session.is-spanning-all-tracks {
-    text-align: center;
+	text-align: center;
 }
 
 /* favorite-sessions.css di WordCamp Post Types rende il titolo un flex row, e su
    un flex text-align non centra: serve justify-content. */
 .wp-block-wordcamp-schedule .wordcamp-schedule__session.is-type-custom h4.wordcamp-schedule__session-title,
 .wp-block-wordcamp-schedule .wordcamp-schedule__session.is-spanning-all-tracks h4.wordcamp-schedule__session-title {
-    justify-content: center;
+	justify-content: center;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session.is-type-custom {
-    background-color: #eef5ff;
-    text-align: center;
+	background-color: #eef5ff;
+	text-align: center;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session.is-type-custom p {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 /* Sotto 782px il programma resta una lista a colonna singola, come sotto 550px.
    Il plugin passa alla griglia già da 550px con selettori a specificità alta dentro
    un supports e un media, quindi qui vanno ripetuti uguali per riportarlo a lista. */
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-tracks {
-    margin-top: 6px;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 1.4;
-    letter-spacing: .04em;
-    text-transform: uppercase;
-    color: #0065ea;
+	margin-top: 6px;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1.4;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+	color: #0065ea;
 }
 
 @media screen and (min-width: 550px) and (max-width: 781px) {
-    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__day {
-        display: block;
-    }
-    
-    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header {
-        display: none;
-    }
-    
-    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header.is-empty {
-        display: none;
-    }
-    
-    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header {
-        margin-top: 2em;
-    }
-    
-    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session,
-    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header {
-        border: 1px solid #d1e5ff;
-        border-top: none;
-        box-shadow: none;
-    }
-    
-    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session-tracks {
-        display: block;
-    }
-    
-    .wp-block-wordcamp-schedule .wordcamp-schedule h3.wordcamp-schedule__time-slot-header {
-        border-radius: 16px 16px 0 0;
-    }
+	body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__day {
+		display: block;
+	}
+	
+	body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header {
+		display: none;
+	}
+	
+	body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header.is-empty {
+		display: none;
+	}
+	
+	body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header {
+		margin-top: 2em;
+	}
+	
+	body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session,
+								    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header {
+		border: 1px solid #d1e5ff;
+		border-top: none;
+		box-shadow: none;
+	}
+	
+	body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session-tracks {
+		display: block;
+	}
+	
+	.wp-block-wordcamp-schedule .wordcamp-schedule h3.wordcamp-schedule__time-slot-header {
+		border-radius: 16px 16px 0 0;
+	}
+}
+
+/* --- Attendee list (shortcode [camptix_attendees]) --- */
+/* Il layout constrained limita il blocco alla colonna di testo: qui prende
+   tutta la larghezza del contenuto della pagina. */
+#tix-attendees {
+	max-width: none !important;
+}
+
+#tix-attendees ul.tix-attendee-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+	gap: 24px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#tix-attendees ul.tix-attendee-list li {
+	float: none;
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 24px 16px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 14px;
+	text-align: center;
+	background: #ffffff;
+	border: 2px solid #d1e5ff;
+	border-radius: 16px;
+	transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+#tix-attendees ul.tix-attendee-list li:hover {
+	border-color: #81b8ff;
+	box-shadow: 0 6px 18px rgba(0, 11, 171, .08);
+}
+
+#tix-attendees ul.tix-attendee-list .avatar {
+	float: none;
+	display: block;
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	object-fit: cover;
+	background: #eef5ff;
+}
+
+#tix-attendees ul.tix-attendee-list .tix-field {
+	display: block;
+	margin: 0;
+	max-width: 100%;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+#tix-attendees ul.tix-attendee-list .tix-attendee-name {
+	font-weight: 600;
+	color: #000bab;
+	overflow-wrap: anywhere;
+}
+
+#tix-attendees ul.tix-attendee-list .tix-attendee-url {
+	margin-top: -6px;
+	font-size: 14px;
+	color: #0065ea;
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#tix-attendees ul.tix-attendee-list .tix-attendee-url:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 599px) {
+	#tix-attendees ul.tix-attendee-list {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 12px;
+	}
+
+	#tix-attendees ul.tix-attendee-list li {
+		padding: 16px 10px;
+	}
+
+	#tix-attendees ul.tix-attendee-list .avatar {
+		width: 72px;
+		height: 72px;
+	}
+
+	#tix-attendees ul.tix-attendee-list .tix-field {
+		font-size: 14px;
+	}
+}
+
+/* --- Single speaker hero --- */
+/* La foto non si restringe mai; su mobile va sopra il nome invece di schiacciarsi.
+   Larghezza e altezza della foto sono inline sull'immagine, da qui gli !important. */
+.single-wcb_speaker .wcpisa-hero .wp-block-post-featured-image {
+	flex-shrink: 0;
+}
+
+@media (max-width: 599px) {
+	.single-wcb_speaker .wcpisa-hero .is-nowrap {
+		flex-wrap: wrap !important;
+		gap: 20px;
+	}
+
+	.single-wcb_speaker .wcpisa-hero .wp-block-post-featured-image {
+		flex-basis: 128px !important;
+	}
+
+	.single-wcb_speaker .wcpisa-hero .wp-block-post-featured-image img {
+		width: 128px !important;
+		height: 128px !important;
+	}
+
+	.single-wcb_speaker .wcpisa-hero .wp-block-post-title {
+		flex-basis: 100%;
+	}
 }
 
 /* Camptix block - tickets page */
 .tix_tickets_table, .tix-ticket-form {
-    border-spacing: 0;
-    border-collapse: collapse;
-    width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
 }
 
 .tix_tickets_table input[type="text"],
 .tix_tickets_table input[type="url"],
 .tix_tickets_table input[type="email"],
 .tix_tickets_table select {
-    font-size: 1em;
+	font-size: 1em;
 }
 
 .tix_tickets_table textarea {
-    font-size: 1em;
-    height: 4em;
+	font-size: 1em;
+	height: 4em;
 }
 
 /* Home smartphone rules */
 @media (max-width:767px) {
-    /*-- responsive ticket table --*/
-    .tix_tickets_table table,
-                            .tix_tickets_table thead,
-                            .tix_tickets_table tbody,
-                            .tix_tickets_table th,
-                            .tix_tickets_table td,
-                            .tix_tickets_table tr {
-        display: block;
-    }
-
-    /* Hide table headers (but not display: none;, for accessibility) */
-    .tix_tickets_table thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
-
-    .tix_tickets_table td {
-    /* Behave  like a "row" */
-        border: 0;
-        position: relative;
-        padding-left: 50%;
-    }
-
-    .tix_tickets_table td:before {
-    /* Now like a table header */
-        position: absolute;
-    /* Top/left values mimic padding */
-        top: 6px;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-    }
-
-    .tix-column-remaining::before {
-        content: "Rimanenti: ";
-    }
-
-    .tix-column-quantity::before {
-        content: "Quantità: ";
-    }
-
-    .tix-column-per-ticket::before {
-        content: "Per ticket: ";
-    }
-
-    .tix-column-price::before {
-        content: "Prezzo: ";
-    }
-
-    .tix-tickets-list .tix-column-description {
-        padding: 0 !important;
-        border: 0;
-        text-align: center !important;
-    }
-
-    .tix-js .tix_tickets_table tbody .tix-ticket-title,
-                            .tix-js .tix_tickets_table tbody .tix-column-description {
-        font-weight: bold;
-        display: block;
-        width: auto;
-        background: var(--wp--preset--color--custom-light-blue-primary);
-        padding: 10px 20px;
-    }
-
-    .tix-js .tix_tickets_table .tix-column-description label + br {
-        display: none;
-    }
-
-    .tix-js .tix_tickets_table tbody .tix-column-description {
-        background: #fff;
-        padding: 0;
-    }
-
-    .tix-js .tix_tickets_table .tix-ticket-excerpt {
-        display: block;
-        padding: 10px 20px;
-        font-weight: normal;
-    }
-
-    /*-- responsive ticket form --*/
-    .tix-ticket-form td.tix-left,
-                            .tix-private-form td.tix-left,
-                            .tix-attendee-form td.tix-left,
-                            .tix-receipt-form td.tix-left,
-                            .tix_invoice_table td.tix-left,
-                            .tix-ticket-form td.tix-right,
-                            .tix-private-form td.tix-right,
-                            .tix-attendee-form td.tix-right,
-                            .tix-receipt-form td.tix-right,
-                            .tix_invoice_table td.tix-right {
-        width: 90% !important;
-    }
-
-    .tix-js .tix_tickets_table.tix-attendee-form .tix-right {
-        padding-top: .5em !important;
-    }
-
-    .tix-js .tix_tickets_table.tix-attendee-form .tix-left,
-                                            .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left {
-        text-align: left !important;
-    }
-
-    .tix-js .tix_tickets_table.tix-attendee-form .tix-right {
-        padding-left: 20px;
-    }
-
-    .tix-ticket-form input[type="text"],
-                                            .tix-ticket-form input[type="email"],
-                                            .tix-ticket-form input[type="url"],
-                                            .tix-ticket-form textarea,
-                                            .tix-private-form input[type="text"],
-                                            .tix-private-form input[type="email"],
-                                            .tix-private-form input[type="url"],
-                                            .tix-private-form textarea,
-                                            .tix-attendee-form input[type="text"],
-                                            .tix-attendee-form input[type="email"],
-                                            .tix-attendee-form input[type="url"],
-                                            .tix-attendee-form textarea,
-                                            .tix-receipt-form input[type="text"],
-                                            .tix-receipt-form input[type="email"],
-                                            .tix-receipt-form input[type="url"],
-                                            .tix-receipt-form textarea,
-                                            .tix_invoice_table input[type="text"],
-                                            .tix_invoice_table input[type="email"],
-                                            .tix_invoice_table input[type="url"],
-                                            .tix_invoice_table textarea {
-        width: 100% !important;
-    }
-
-    tix-order-summary .tix-column-description {
-        width: 80% !important;
-    }
-
-    .tix-js .tix_tickets_table.tix-attendee-form tbody td,
-                                            .tix_tickets_table.tix-attendee-form tbody th {
-        padding: 5px 0 !important;
-    }
-
-    .tix-attendee-form tr {
-        padding-bottom: 40px !important;
-    }
-
-    .tix-left {
-        font-weight: 600 !important;
-    }
+	/*-- responsive ticket table --*/
+	.tix_tickets_table table,
+								                            .tix_tickets_table thead,
+								                            .tix_tickets_table tbody,
+								                            .tix_tickets_table th,
+								                            .tix_tickets_table td,
+								                            .tix_tickets_table tr {
+		display: block;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.tix_tickets_table thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.tix_tickets_table td {
+	/* Behave  like a "row" */
+		border: 0;
+		position: relative;
+		padding-left: 50%;
+	}
+	
+	.tix_tickets_table td:before {
+	/* Now like a table header */
+		position: absolute;
+	/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	.tix-column-remaining::before {
+		content: "Rimanenti: ";
+	}
+	
+	.tix-column-quantity::before {
+		content: "Quantità: ";
+	}
+	
+	.tix-column-per-ticket::before {
+		content: "Per ticket: ";
+	}
+	
+	.tix-column-price::before {
+		content: "Prezzo: ";
+	}
+	
+	.tix-tickets-list .tix-column-description {
+		padding: 0 !important;
+		border: 0;
+		text-align: center !important;
+	}
+	
+	.tix-js .tix_tickets_table tbody .tix-ticket-title,
+								                            .tix-js .tix_tickets_table tbody .tix-column-description {
+		font-weight: bold;
+		display: block;
+		width: auto;
+		background: var(--wp--preset--color--custom-light-blue-primary);
+		padding: 10px 20px;
+	}
+	
+	.tix-js .tix_tickets_table .tix-column-description label + br {
+		display: none;
+	}
+	
+	.tix-js .tix_tickets_table tbody .tix-column-description {
+		background: #fff;
+		padding: 0;
+	}
+	
+	.tix-js .tix_tickets_table .tix-ticket-excerpt {
+		display: block;
+		padding: 10px 20px;
+		font-weight: normal;
+	}
+	
+	/*-- responsive ticket form --*/
+	.tix-ticket-form td.tix-left,
+								                            .tix-private-form td.tix-left,
+								                            .tix-attendee-form td.tix-left,
+								                            .tix-receipt-form td.tix-left,
+								                            .tix_invoice_table td.tix-left,
+								                            .tix-ticket-form td.tix-right,
+								                            .tix-private-form td.tix-right,
+								                            .tix-attendee-form td.tix-right,
+								                            .tix-receipt-form td.tix-right,
+								                            .tix_invoice_table td.tix-right {
+		width: 90% !important;
+	}
+	
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+		padding-top: .5em !important;
+	}
+	
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-left,
+								                                            .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left {
+		text-align: left !important;
+	}
+	
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+		padding-left: 20px;
+	}
+	
+	.tix-ticket-form input[type="text"],
+								                                            .tix-ticket-form input[type="email"],
+								                                            .tix-ticket-form input[type="url"],
+								                                            .tix-ticket-form textarea,
+								                                            .tix-private-form input[type="text"],
+								                                            .tix-private-form input[type="email"],
+								                                            .tix-private-form input[type="url"],
+								                                            .tix-private-form textarea,
+								                                            .tix-attendee-form input[type="text"],
+								                                            .tix-attendee-form input[type="email"],
+								                                            .tix-attendee-form input[type="url"],
+								                                            .tix-attendee-form textarea,
+								                                            .tix-receipt-form input[type="text"],
+								                                            .tix-receipt-form input[type="email"],
+								                                            .tix-receipt-form input[type="url"],
+								                                            .tix-receipt-form textarea,
+								                                            .tix_invoice_table input[type="text"],
+								                                            .tix_invoice_table input[type="email"],
+								                                            .tix_invoice_table input[type="url"],
+								                                            .tix_invoice_table textarea {
+		width: 100% !important;
+	}
+	
+	tix-order-summary .tix-column-description {
+		width: 80% !important;
+	}
+	
+	.tix-js .tix_tickets_table.tix-attendee-form tbody td,
+								                                            .tix_tickets_table.tix-attendee-form tbody th {
+		padding: 5px 0 !important;
+	}
+	
+	.tix-attendee-form tr {
+		padding-bottom: 40px !important;
+	}
+	
+	.tix-left {
+		font-weight: 600 !important;
+	}
 }
 
 /* End of media rule @media (max-width:767px) */
 .tix-js {
-    font-size: 1.1em;
+	font-size: 1.1em;
 }
 
 .tix-js .tix_tickets_table th,
 .tix-js .tix_tickets_table td {
-    padding: 5px 20px;
+	padding: 5px 20px;
 }
 
 .tix-js .tix_tickets_table thead th,
 .tix-ticket-form thead th {
-    background-color: var(--wp--preset--color--accent-1);
-    border: 1px solid var(--wp--preset--color--accent-1);
-    font-weight: bold;
+	background-color: var(--wp--preset--color--accent-1);
+	border: 1px solid var(--wp--preset--color--accent-1);
+	font-weight: bold;
 }
 
 .tix-js .tix_tickets_table tbody .tix-ticket-title {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .tix-js .tix_tickets_table tbody th,
 .tix-js .tix_tickets_table tbody td,
 .tix-js .tix-ticket-form tbody th,
 .tix-js .tix-ticket-form tbody td {
-    border: 1px solid #ccc;
-    text-align: center;
+	border: 1px solid #ccc;
+	text-align: center;
 }
 
 .tix-js .tix_tickets_table tbody .tix-column-price,
 .tix-js .tix_tickets_table tbody .tix-column-remaining {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .tix-js .tix_tickets_table tbody .tix-column-quantity select {
-    padding: 8px 7px;
-    min-width: 75px;
+	padding: 8px 7px;
+	min-width: 75px;
 }
 
 .tix-js .tix_tickets_table.tix-order-summary {
-    width: 100%;
-    margin-top: 2rem;
+	width: 100%;
+	margin-top: 2rem;
 }
 
 .tix-js .tix_tickets_table.tix-order-summary .tix-row-total td:last-child {
-    border-top: 1px solid gray;
+	border-top: 1px solid gray;
 }
 
 .tix-js .tix_tickets_table.tix-order-summary tbody th,
 .tix-js .tix_tickets_table.tix-attendee-form tbody th,
 .tix-js .tix_tickets_table.tix-attendee-form tbody td {
-    border: none;
-    padding: 5px 20px;
+	border: none;
+	padding: 5px 20px;
 }
 
 .tix-js .tix_tickets_table tbody th,
 .tix-js .tix_tickets_table th.tix-column-description {
-    text-align: left;
+	text-align: left;
 }
 
 .tix-js .tix_tickets_table.tix-attendee-form .tix-left {
-    text-align: right;
-    padding-right: .5em;
+	text-align: right;
+	padding-right: .5em;
 }
 
 .tix-js .tix_tickets_table.tix-attendee-form .tix-right {
-    text-align: left;
-    padding-left: .5em;
+	text-align: left;
+	padding-left: .5em;
 }
 
 .tix-js .tix_tickets_table.tix-attendee-form .tix-left,
 .tix-js .tix_tickets_table.tix-attendee-form .tix-right {
-    padding-top: 1.5em;
+	padding-top: 1.5em;
 /*! vertical-align: bottom; */
 }
 
 .tix-js .tix_tickets_table.tix-attendee-form .tix-row-health-advisory .tix-left {
-    text-align: left;
+	text-align: left;
 }
 
 .tix-js .tix_tickets_table.tix-attendee-form .tix-row-health-advisory .tix-left p {
-    margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 .tix-js .tix_tickets_table.tix-attendee-form .tix-row-health-advisory .tix-left::after {
-    content: none;
+	content: none;
 }
 
 .tix-js .camptix-invoice-toggle-wrapper {
-    display: block;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+	display: block;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .tix-js .camptix-invoice-toggle-wrapper label {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .tix-js .camptix-invoice-toggle-wrapper table label {
-    font-weight: normal;
+	font-weight: normal;
 }
 
 .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details {
-    width: 100%;
-    margin-bottom: 2em;
+	width: 100%;
+	margin-bottom: 2em;
 }
 
 .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details td {
-    border: none;
+	border: none;
 }
 
 .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left {
-    text-align: right;
-    padding-right: .5em;
-    width: 40%;
+	text-align: right;
+	padding-right: .5em;
+	width: 40%;
 }
 
 .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-right {
-    text-align: left;
-    padding-left: .5em;
-    width: 60%;
+	text-align: left;
+	padding-left: .5em;
+	width: 60%;
 }
 
 .tix_invoice_table input[type="text"],
 .tix_invoice_table input[type="email"],
 .tix_invoice_table input[type="url"],
 .tix_invoice_table textarea {
-    width: 70%;
+	width: 70%;
 }
 
 .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left,
 .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-right {
-    padding-top: 1.5em;
-    vertical-align: bottom;
+	padding-top: 1.5em;
+	vertical-align: bottom;
 }
 
 .tix-js .tix-submit {
-    display: block;
-    margin-bottom: 3em;
+	display: block;
+	margin-bottom: 3em;
 }
 
+/* Registrati e Pagamento come i pulsanti blu del sito (Iscriviti). La freccia
+   è già nel testo del pulsante, quindi niente pseudo-elemento. */
 .tix-js input[type='submit'],
 .tix-checkout-button {
-    font-size: 1.2rem;
-    margin-top: 2rem;
-    border: 2px solid var(--wp--preset--color--custom-light-blue-primary) !important;
-    padding: 15px 30px !important;
-    background-color: var(--wp--preset--color--custom-light-blue-primary);
-    color: #000;
-    text-transform: uppercase;
-    cursor: pointer;
+	margin-top: 2rem;
+	padding: 16px 22px !important;
+	border: 2px solid #0065ea !important;
+	border-radius: 999px;
+	background-color: #0065ea;
+	color: #fff;
+	font-family: 'Syne', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: background-color .15s ease, border-color .15s ease;
+}
+
+.tix-js input[type='submit']:hover,
+.tix-js input[type='submit']:focus-visible,
+.tix-checkout-button:hover,
+.tix-checkout-button:focus-visible {
+	background-color: #000bab;
+	border-color: #000bab !important;
+}
+
+/* payment-options.css di CampTix usa un selettore con #tix che rimette
+   maiuscolo, spaziatura e angoli a 2px sul pulsante Pagamento. */
+#tix .tix-submit .tix-checkout-button {
+	text-transform: none;
+	letter-spacing: normal;
+	border-radius: 999px;
 }
 
 .tix-js #tix-coupon-input {
-    font-size: 1.2rem;
-    padding: 13px;
+	font-size: 1.2rem;
+	padding: 13px;
 }
 
 .tix-js .tix-ticket-form th {
-    text-align: center;
+	text-align: center;
 }
 
 /* Hide Contributor day tickets from the table to people not allowed to */
 .tix-ticket-1792.tix-sold-out {
-    display: none;
+	display: none;
 }
 
 /* END Camptix block - tickets page */
+/* Limit to 1 the max number of ticket buyed at once with coupons */
+table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not([value=""])) #tix-qty-4547 option:is([value="2"], [value="3"], [value="4"], [value="5"], [value="6"], [value="7"], [value="8"], [value="9"], [value="10"]),
+table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not([value=""])) #tix-qty-4553 option:is([value="2"], [value="3"], [value="4"], [value="5"], [value="6"], [value="7"], [value="8"], [value="9"], [value="10"]),
+table.tix_tickets_table.tix-tickets-list tbody:has(input[name="tix_coupon"]:not([value=""])) .tix-ticket-4558 {
+	display: none;
+}
+
+/* Fix mobile menu 1st level items color */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation .wp-block-navigation-item__content,
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation a {
+	color: inherit !important;
+}
+
+/* WP scuola start */
+/* Schedule, Sessions, Speaker and Session pages */
+#wordcamp-schedule__session-4868 .wordcamp-schedule__session-speakers dd::after,
+.wp-block-post.post-4868.wcb_session .wp-block-wordcamp-session-speakers__name::after,
+body.postid-4919 .wp-block-wordcamp-speaker-sessions li a[href*="session/hello-wordpress"]::after,
+body.postid-4868 .wp-block-wordcamp-session-speakers__name a::after {
+	content: " - Stefano Cassone";
+}
+
+#wordcamp-schedule__session-4872 .wordcamp-schedule__session-speakers dd::after,
+.wp-block-post.post-4872.wcb_session .wp-block-wordcamp-session-speakers__name::after,
+body.postid-4919 .wp-block-wordcamp-speaker-sessions li a[href*="session/crea-e-pubblica"]::after,
+body.postid-4872 .wp-block-wordcamp-session-speakers__name a::after {
+	content: " - Margherita Pelonara";
+}
+
+#wordcamp-schedule__session-4874 .wordcamp-schedule__session-speakers dd::after,
+.wp-block-post.post-4874.wcb_session .wp-block-wordcamp-session-speakers__name::after,
+body.postid-4919 .wp-block-wordcamp-speaker-sessions li a[href*="session/personalizza-il-tuo-sito"]::after,
+body.postid-4874 .wp-block-wordcamp-session-speakers__name a::after {
+	content: " - Gloria Liumi";
+}
+
+#wordcamp-schedule__session-4876 .wordcamp-schedule__session-speakers dd::after,
+.wp-block-post.post-4876.wcb_session .wp-block-wordcamp-session-speakers__name::after,
+body.postid-4919 .wp-block-wordcamp-speaker-sessions li a[href*="session/qa"]::after,
+body.postid-4876 .wp-block-wordcamp-session-speakers__name a::after {
+	content: " - Stefano Cassone, Gloria Liumi, Margherita Pelonara, Dennis Ploetner";
+}
+
+/* Fix schedule name color */
+#wordcamp-schedule__session-4868 .wordcamp-schedule__session-speakers dd::after,
+#wordcamp-schedule__session-4872 .wordcamp-schedule__session-speakers dd::after,
+#wordcamp-schedule__session-4874 .wordcamp-schedule__session-speakers dd::after,
+#wordcamp-schedule__session-4876 .wordcamp-schedule__session-speakers dd::after {
+	color: #0065ea;
+}
+
+/* WP scuola end */
